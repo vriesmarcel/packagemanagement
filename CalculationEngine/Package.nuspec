@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Package</id>
+    <version>1.0.0</version>
+    <authors>Marcel de Vries</authors>
+    <owners>student</owners>
+    <licenseUrl>http://fluentbytes.com/license</licenseUrl>
+    <projectUrl>http://fluentbytes.com</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Simple calculation engine to demo package management</description>
+    <copyright>Copyright 2017</copyright>
+    <tags>Calculator</tags>
+  </metadata>
+  <files>
+    <file src="**\debug\**\*.dll" target="lib\net40" />
+    </files>
+
+</package>
