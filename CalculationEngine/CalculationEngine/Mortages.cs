@@ -10,7 +10,7 @@ namespace CalculationEngine
     {
         //changes made to file
         //other change to get to a stable release
-        //and we think we are incompatible
+        
         public double MortgageMaximum(double yearIncome, double homeValue)
         {
         
