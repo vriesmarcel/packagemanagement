@@ -16,7 +16,8 @@ namespace CalculationEngine
             if (maximum > homeValue)
             {
                 maximum = homeValue * .8;
-            }
+                throw new ArgumentException("Invalid argument");
+             }
             return maximum;
         }
 
