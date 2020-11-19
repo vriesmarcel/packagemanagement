@@ -71,6 +71,6 @@ jobs:
     - name: pack
       run: dotnet pack ${{github.workspace}}/CalculationEngine/CalculationEngine/CalculationEngine.csproj  --output ./artifacts --configuration Release -p:Version=${{steps.gitversion.outputs.nuGetVersionV2}}
     - name: add package source
-      run: dotnet nuget add source https://nuget.pkg.github.com/vriesmarcel/index.json -n github -u vriesmarcel -p ${{secrets.NUGETAPIKEY}}
+      run: dotnet nuget add source https://nuget.pkg.github.com/vriesmarcel/index.json -n github -u vriesmarcel -p ${{secrets.NUGETAPIKEY}} --store-password-in-clear-text
     - name: publish
       run: dotnet nuget push ./artifacts/**.nupkg --source github --api-key ${{secrets.NUGETAPIKEY}}
