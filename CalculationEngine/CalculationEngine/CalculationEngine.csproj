@@ -11,12 +11,5 @@
     <None Remove="Properties\**" />
   </ItemGroup>
 
-  <ItemGroup>
-    <None Remove="nuget.config" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Compile Include="nuget.config" />
-  </ItemGroup>
-
+ 
 </Project>
