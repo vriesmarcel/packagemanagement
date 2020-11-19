@@ -11,5 +11,11 @@
     <None Remove="Properties\**" />
   </ItemGroup>
 
- 
+ <PropertyGroup>
+    <PackageId>CalculationEngine</PackageId>
+    <Authors>Marcel de Vries</Authors>
+    <Company>Fluentbytes</Company>
+    <PackageDescription>Calculation Engine</PackageDescription>
+    <RepositoryUrl>https://github.com/vriesmarcel/CalculationEngine</RepositoryUrl>
+  </PropertyGroup>
 </Project>
