@@ -16,6 +16,6 @@
     <Authors>Marcel de Vries</Authors>
     <Company>Fluentbytes</Company>
     <PackageDescription>Calculation Engine</PackageDescription>
-    <RepositoryUrl>https://github.com/vriesmarcel/PackageManagement</RepositoryUrl>
+    <RepositoryUrl>https://github.com/vriesmarcel/packagemanagement</RepositoryUrl>
   </PropertyGroup>
 </Project>
