@@ -15,7 +15,7 @@ namespace CalculationEngine
             var maximum = 4.2 * yearIncome;
             if (maximum > homeValue)
             {
-                maximum = homeValue * .8;
+                maximum = homeValue * .9;
                 throw new ArgumentException("Invalid argument");
              }
             return maximum;
