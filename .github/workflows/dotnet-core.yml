@@ -22,8 +22,10 @@ jobs:
       uses: gittools/actions/gitversion/setup@v0.9.6
       with:
         versionSpec: '5.x'
-    - name: run GitVersion
-      run: dotnet-gitversion
+    - name: Determine Version
+      id:   gitversion
+      uses: gittools/actions/gitversion/execute@v0.9.6
+
     - name: Display GitVersion outputs
       run: |
         echo "Major: ${{ steps.gitversion.outputs.major }}"
