@@ -1,3 +1,5 @@
+next-version: 3.0
+commit-message-incrementing: Enabled
 branches:
   master:
     regex: ^master$|^main$
